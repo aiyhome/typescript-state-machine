@@ -14,12 +14,12 @@ let fsm = new StateMachine({
     onVaporize: function() { console.log('I vaporized') },
     onCondense: function() { console.log('I condensed') }
   }
-});
-
+}); 
 // fsm.melt()
 // fsm.freeze()
 // fsm.vaporize()
 // fsm.condense()
+
 fsm.fire('melt')
 // fsm.fire('freeze')
 fsm.fire('vaporize')

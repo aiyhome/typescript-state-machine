@@ -16,6 +16,8 @@ export default class StateMachine {
     }
   }
 
+  public state:string;
+
   private _fsm: JSM;
   constructor(options: any) {
     let config = new Config(options, StateMachine);
